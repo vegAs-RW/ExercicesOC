@@ -21,14 +21,16 @@
     
     justify-content: center;
     align-items: flex-start;
-    padding-left: 1em;   
+    padding-left: 1em; 
+    color: black;  
 }
 
 .link2 {
-
+    
     justify-content: center;
     align-items: flex-end;
     padding-left: 1em;
+    color: black;
 }
 
 .background {
@@ -264,7 +266,7 @@
 }
 
 
-.black {
+.blck {
 
     color: black
 }
