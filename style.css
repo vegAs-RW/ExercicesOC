@@ -1,0 +1,71 @@
+.header-all-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: tomato 0.3em solid;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: black 0.1em solid;
+    padding-left: 2em;
+}
+
+.link1 {
+    
+    justify-content: center;
+    align-items: flex-start;
+    border: springgreen 0.1em solid;
+    padding-left: 1em;   
+}
+
+.link2 {
+
+    justify-content: center;
+    align-items: flex-end;
+    border: springgreen 0.1em solid;
+    padding-left: 1em;
+}
+
+.background {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: tomato 0.4em solid;
+    background-image: url(/Users/jordan/Documents/exerciceOC/Images/backgroung_image.jpg);
+    width: 100%;
+    min-width: 400px;
+    height: 30%;
+    min-height: 700px;
+}
+
+#background1 {
+
+    border: yellow 0.1em solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+}
+
+.title {
+
+    font-size: xx-large;
+    color: white;
+}
