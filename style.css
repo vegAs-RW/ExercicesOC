@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: tomato 0.3em solid;
+    width: 100%;
 }
 
 .logo {
@@ -14,7 +14,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border: black 0.1em solid;
     padding-left: 2em;
 }
 
@@ -22,7 +21,6 @@
     
     justify-content: center;
     align-items: flex-start;
-    border: springgreen 0.1em solid;
     padding-left: 1em;   
 }
 
@@ -30,7 +28,6 @@
 
     justify-content: center;
     align-items: flex-end;
-    border: springgreen 0.1em solid;
     padding-left: 1em;
 }
 
@@ -39,7 +36,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: tomato 0.4em solid;
     background-image: url(/Users/jordan/Documents/exerciceOC/Images/backgroung_image.jpg);
     width: 100%;
     min-width: 400px;
@@ -49,7 +45,6 @@
 
 #background1 {
 
-    border: yellow 0.1em solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,3 +64,209 @@
     font-size: xx-large;
     color: white;
 }
+
+.body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+.text1 {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.65em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.describ {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-GSI {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    
+}
+
+.icon-text {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 150px;
+    
+}
+
+.GSI {
+
+    display: flex;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+.text-GSI {
+
+    flex-direction: column;
+    font-size: xx-small;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    text-align: center;
+}
+
+.comment {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    width: 60%;
+    
+    
+
+}
+
+.comment-text {
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 0.8em;
+    width: 100%;
+}
+
+.comment-id {
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+    padding-top: 0em;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.id-name {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 0.6em;
+    opacity: 0.40;
+}
+
+.infos {
+
+    background-color: slateblue;
+    width: 100%;
+    padding-top: 1em;
+    
+}
+
+.info-describe {
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white; 
+    
+}
+
+.localisation {
+
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 0.7em;
+    
+}
+
+.social-logo {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    justify-content: space-evenly;
+}
+
+ .max-footer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .acces {
+
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+ }
+
+ .about {
+
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+ }
+
+ .adress {
+  
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+ }
+ 
+
+.bl {
+
+    color: white;
+}
+
+
+.black {
+
+    color: black
+}
+
+
